@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Backlog</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Backlog</string>
+    <string name="menu_gallery">Completed Games</string>
+</resources>
