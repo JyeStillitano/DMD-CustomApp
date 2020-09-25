@@ -1,7 +1,7 @@
 package com.example.myapplication
 
 import android.os.Bundle
-import android.view.Menu
+import android.util.Log
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -13,6 +13,8 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
@@ -38,6 +40,31 @@ class MainActivity : AppCompatActivity() {
             R.id.nav_home, R.id.nav_gallery), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+        val data = arrayListOf<Game>()
+        val reader = resources.openRawResource(R.raw.game_data).bufferedReader()
+        val iterator = reader.lineSequence().iterator()
+        var name : String
+        var platform : Platform
+        var description : String
+        var completion : Float
+        while( iterator.hasNext()) {
+            name = iterator.next()
+            platform = Platform.valueOf(iterator.next())
+            description = iterator.next()
+            completion  = iterator.next().toFloat()
+            var game = Game(name, platform, description, completion)
+            data.add(game)
+            Log.i("GameAdded", game.toString())
+        }
+        reader.close()
+
+        //val list = findViewById<RecyclerView>()
+        //val manager = LinearLayoutManager(this)
+        //list.layoutManager = manager
+
+        //val adapter = GameAdapter(data)
+        //list.adapter = adapter
     }
 
     override fun onSupportNavigateUp(): Boolean {

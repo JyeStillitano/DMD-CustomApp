@@ -1728,6 +1728,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id completion
 id confirm_button
 id container
 id content
@@ -1785,6 +1786,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id games
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1853,6 +1855,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id name
 id nav_controller_view_tag
 id nav_gallery
 id nav_home
@@ -1969,7 +1972,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id text_gallery
-id text_home
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2090,6 +2092,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_gallery
 layout fragment_home
+layout layout_row
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2155,6 +2158,7 @@ layout text_view_without_line_height
 menu activity_main_drawer
 navigation mobile_navigation
 plurals mtrl_badge_content_description
+raw game_data
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2244,6 +2248,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string placeholder
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

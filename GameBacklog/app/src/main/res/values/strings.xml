@@ -4,4 +4,6 @@
 
     <string name="menu_home">Backlog</string>
     <string name="menu_gallery">Completed Games</string>
+
+    <string name="placeholder">Placeholder</string>
 </resources>
