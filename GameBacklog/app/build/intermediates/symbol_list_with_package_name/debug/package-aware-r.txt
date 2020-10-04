@@ -56,6 +56,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array platform
 attr action
 attr actionBarDivider
 attr actionBarItemBackground
@@ -1266,7 +1267,6 @@ dimen design_tab_text_size_2line
 dimen design_textinput_caption_translate_y
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
-dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -1280,6 +1280,7 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen margin
 dimen material_emphasis_disabled
 dimen material_emphasis_high_type
 dimen material_emphasis_medium
@@ -1450,6 +1451,7 @@ dimen mtrl_tooltip_padding
 dimen mtrl_transition_shared_axis_slide_distance
 dimen nav_header_height
 dimen nav_header_vertical_spacing
+dimen new_game_spacing
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -1584,6 +1586,7 @@ drawable game_controller
 drawable ic_baseline_add_24
 drawable ic_baseline_list_24
 drawable ic_baseline_playlist_add_check_24
+drawable ic_baseline_save_24
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
@@ -1729,6 +1732,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id completion
+id completionText
 id confirm_button
 id container
 id content
@@ -1744,6 +1748,8 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
+id description
+id descriptionText
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1820,6 +1826,7 @@ id line3
 id linear
 id listMode
 id list_item
+id main
 id masked
 id media_actions
 id message
@@ -1856,6 +1863,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id name
+id nameText
 id nav_controller_view_tag
 id nav_gallery
 id nav_home
@@ -1885,6 +1893,8 @@ id pathRelative
 id peekHeight
 id percent
 id pin
+id platform
+id platformText
 id position
 id postLayout
 id progress_circular
@@ -1898,6 +1908,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saveFab
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -1971,7 +1982,6 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id text_gallery
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2071,7 +2081,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_information
 layout activity_main
+layout activity_new_game
 layout app_bar_main
 layout content_main
 layout custom_dialog
@@ -2158,7 +2170,6 @@ layout text_view_without_line_height
 menu activity_main_drawer
 navigation mobile_navigation
 plurals mtrl_badge_content_description
-raw game_data
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2194,6 +2205,8 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string completion
+string description
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2240,6 +2253,7 @@ string mtrl_picker_toggle_to_calendar_input_mode
 string mtrl_picker_toggle_to_day_selection
 string mtrl_picker_toggle_to_text_input_mode
 string mtrl_picker_toggle_to_year_selection
+string name
 string nav_app_bar_navigate_up_description
 string nav_app_bar_open_drawer_description
 string nav_header_desc
@@ -2248,7 +2262,9 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string percent
 string placeholder
+string platform
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

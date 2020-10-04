@@ -5,32 +5,33 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.myapplication.database.Game
 
-class GameAdapter(private val data: List<Game>) : RecyclerView.Adapter<GameAdapter.ViewHolder>() {
+class GameAdapter internal constructor(layoutInflater: LayoutInflater) : RecyclerView.Adapter<GameAdapter.ViewHolder>() {
+
+    private var games = emptyList<Game>()
+    private val inflater: LayoutInflater = layoutInflater
+
+    inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        val nameView: TextView = view.findViewById(R.id.name)
+        val completionView: TextView = view.findViewById(R.id.completion)
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GameAdapter.ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.layout_row, parent, false) as View
+        val view = inflater.inflate(R.layout.layout_row, parent, false)
         return ViewHolder(view)
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-        return 4
-    }
-
     override fun onBindViewHolder(holder: GameAdapter.ViewHolder, position: Int) {
-        val game = data[position]
-        holder.bind(game)
+        val game = games[position]
+        holder.nameView.text = game.name
+        holder.completionView.text = inflater.context.getString(R.string.percent, game.completion.toString())
     }
 
-    inner class ViewHolder(private val v: View) : RecyclerView.ViewHolder(v) {
-        private val name : TextView = v.findViewById(R.id.name)
-        private val completion : TextView = v.findViewById(R.id.completion)
+    override fun getItemCount() = games.size
 
-        fun bind(game: Game) {
-            name.text = game.name
-            completion.text = game.completion.toString()
-        }
+    internal fun setGames(games: List<Game>) {
+        this.games = games
+        notifyDataSetChanged()
     }
-
 }

@@ -6,4 +6,37 @@
     <string name="menu_gallery">Completed Games</string>
 
     <string name="placeholder">Placeholder</string>
+    <string name="percent">%s %%</string>
+
+    <string name="name">Name: </string>
+    <string name="description">Description: </string>
+    <string name="platform">Platform: </string>
+    <string name="completion">Percentage Completion: </string>
+
+    <string-array name="platform">
+        <item>PC</item>
+        <item>Sega</item>
+        <item>Atari</item>
+        <item>Arcade</item>
+        <item>NES</item>
+        <item>SNES</item>
+        <item>Gamecube</item>
+        <item>Nintendo64</item>
+        <item>Wii</item>
+        <item>WiiU</item>
+        <item>NintendoSwitch</item>
+        <item>GameBoy</item>
+        <item>NintendoDS</item>
+        <item>PlayStation1</item>
+        <item>PlayStation2</item>
+        <item>PlayStation3</item>
+        <item>PlayStation4</item>
+        <item>PlayStation5</item>
+        <item>PSP</item>
+        <item>PlayStationVita</item>
+        <item>XBox</item>
+        <item>XBox360</item>
+        <item>XBoxOne</item>
+        <item>XBoxOneX</item>
+    </string-array>
 </resources>

@@ -6,13 +6,15 @@
     <TextView
         android:id="@+id/name"
         android:layout_width="275sp"
-        android:layout_height="25sp"
-        android:text="@string/placeholder" />
+        android:layout_height="50sp"
+        android:text="@string/placeholder"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/completion"
         android:layout_width="0dp"
-        android:layout_height="25sp"
+        android:layout_height="50sp"
         android:layout_weight="1"
-        android:text="@string/placeholder" />
+        android:text="@string/placeholder"
+        android:textSize="18sp" />
 </LinearLayout>

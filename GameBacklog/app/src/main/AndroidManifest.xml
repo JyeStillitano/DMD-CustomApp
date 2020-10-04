@@ -9,6 +9,8 @@
         android:roundIcon="@drawable/game_controller"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".InformationActivity"></activity>
+        <activity android:name=".NewGameActivity" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
