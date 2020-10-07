@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\activity_information.xml"
     },
     {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_delete_24.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\ic_baseline_delete_24.xml"
+    },
+    {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_save_24.xml.flat",
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\ic_baseline_save_24.xml"
     },
@@ -36,8 +40,16 @@
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_information.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout-land\\activity_information.xml"
+    },
+    {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_game_controller.png.flat",
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\game_controller.png"
+    },
+    {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_new_game.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout-land\\activity_new_game.xml"
     },
     {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_playlist_add_check_24.xml.flat",

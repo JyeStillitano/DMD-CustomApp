@@ -22,7 +22,7 @@ class GalleryFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        Log.i("GalleryFragment", "onCreateView entered")
+        // Log.i("GalleryFragment", "onCreateView entered")
 
         galleryViewModel =
             ViewModelProvider(this).get(GalleryViewModel::class.java)

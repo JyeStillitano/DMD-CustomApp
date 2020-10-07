@@ -4,6 +4,7 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -31,12 +32,9 @@ class MainActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-        // Floating Action Button
+        // Floating Action Button - Start NewGameActivity
         val fab: FloatingActionButton = findViewById(R.id.fab)
-        fab.setOnClickListener { view ->
-            val intent = Intent(this, NewGameActivity::class.java)
-            startActivityForResult(intent, newGameActivityRequestCode)
-        }
+        fab.setOnClickListener { startActivity(Intent(this, NewGameActivity::class.java)) }
 
         // Navigation Drawer
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
@@ -48,21 +46,6 @@ class MainActivity : AppCompatActivity() {
             R.id.nav_home, R.id.nav_gallery), drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
-
-    }
-
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == newGameActivityRequestCode && resultCode == Activity.RESULT_OK) {
-            if (data != null) {
-                Log.i("onActivityResult:", "HomeFragment received good results.")
-                val newGame = data.getParcelableExtra<Game>("NEW_GAME")
-                if (newGame != null) ViewModelProvider(this).get(HomeViewModel::class.java).insert(newGame)
-            }
-        } else {
-            // Failed
-            Log.i("onActivityResult:", "HomeFragment received bad results.")
-        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

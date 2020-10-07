@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28sp"
+        android:background="#EF5350"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_game_spacing"
+        android:text="@string/description" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:padding="@dimen/margin" />
+
+    <TextView
+        android:id="@+id/platformText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_game_spacing"
+        android:text="@string/platform" />
+
+    <Spinner
+        android:id="@+id/platform"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/platform"
+        android:padding="@dimen/margin" />
+
+    <TextView
+        android:id="@+id/completionText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_game_spacing"
+        android:text="@string/completion" />
+
+    <EditText
+        android:id="@+id/completion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:padding="@dimen/margin" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/saveFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/margin"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_baseline_save_24" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/deleteFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="80sp"
+            android:layout_marginBottom="@dimen/margin"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_baseline_delete_24" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

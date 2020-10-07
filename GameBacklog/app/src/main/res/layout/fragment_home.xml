@@ -10,5 +10,7 @@
         android:id="@+id/games"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="20sp" />
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="60sp"
+        android:layout_marginHorizontal="20sp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

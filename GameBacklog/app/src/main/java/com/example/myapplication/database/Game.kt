@@ -5,6 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 
+// Enum for Platform selection.
 enum class Platform {
     PC, Sega, Atari, Arcade,
     NES, SNES, GameCube, Nintendo64, Wii, WiiU, NintendoSwitch, GameBoy, NintendoDS,

@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,6 +8,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.database.Game
 
+// For binding the Game entity object with a layout_row in the recycler view.
 class GameAdapter internal constructor(layoutInflater: LayoutInflater) : RecyclerView.Adapter<GameAdapter.ViewHolder>() {
 
     private var games = emptyList<Game>()
@@ -15,6 +17,16 @@ class GameAdapter internal constructor(layoutInflater: LayoutInflater) : Recycle
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val nameView: TextView = view.findViewById(R.id.name)
         val completionView: TextView = view.findViewById(R.id.completion)
+
+        init {
+            // Start activity InformationActivity onClick - for each Game
+            view.setOnClickListener {
+                val position: Int = adapterPosition
+                val intent = Intent(view.context, InformationActivity::class.java)
+                intent.putExtra("EXPAND_GAME", games[position])
+                view.context.startActivity(intent)
+            }
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GameAdapter.ViewHolder {

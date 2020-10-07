@@ -8,7 +8,7 @@ import kotlinx.coroutines.launch
 
 @Database(entities = arrayOf(Game::class), version = 1, exportSchema = false)
 @TypeConverters(Converter::class)
-public abstract class GameRoomDatabase : RoomDatabase() {
+abstract class GameRoomDatabase : RoomDatabase() {
 
     // Getter for Game data access objects.
     abstract fun gameDao(): GameDao
@@ -24,16 +24,6 @@ public abstract class GameRoomDatabase : RoomDatabase() {
                 }
             }
         }
-
-        suspend fun populateDatabase(gameDao: GameDao) {
-            var testGame = Game(
-                "Quake",
-                Platform.PC,
-                "Chapter 3",
-                30.0.toFloat()
-            )
-            gameDao.insertGame(testGame)
-        }
     }
 
     // Companion so there isn't multiple instances accessing the DB at once.
@@ -41,12 +31,10 @@ public abstract class GameRoomDatabase : RoomDatabase() {
         @Volatile
         private var INSTANCE: GameRoomDatabase? = null
 
+        // if Database exists, return it. If not, create instance and return it.
         fun getDatabase(context: Context, scope: CoroutineScope): GameRoomDatabase {
-            val tempInstance =
-                INSTANCE
-            if (tempInstance != null) {
-                return tempInstance
-            }
+            val tempInstance = INSTANCE
+            if (tempInstance != null) return tempInstance
             synchronized(this) {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,

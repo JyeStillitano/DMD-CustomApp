@@ -2,5 +2,6 @@
 <resources>
     <color name="colorPrimary">#FF656C</color>
     <color name="colorPrimaryDark">#FF656C</color>
-    <color name="colorAccent">#FF656C</color>
+    <color name="colorAccent">#FFF176</color>
+    <color name="layout_row_color">#ECECEC</color>
 </resources>

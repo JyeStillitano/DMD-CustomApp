@@ -1018,6 +1018,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color layout_row_color
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1280,6 +1281,7 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen layout_row_margin_bottom
 dimen margin
 dimen material_emphasis_disabled
 dimen material_emphasis_high_type
@@ -1584,6 +1586,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable game_controller
 drawable ic_baseline_add_24
+drawable ic_baseline_delete_24
 drawable ic_baseline_list_24
 drawable ic_baseline_playlist_add_check_24
 drawable ic_baseline_save_24
@@ -1747,6 +1750,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteFab
 id deltaRelative
 id description
 id descriptionText

@@ -6,15 +6,25 @@
     <TextView
         android:id="@+id/name"
         android:layout_width="275sp"
-        android:layout_height="50sp"
+        android:layout_height="32sp"
+        android:layout_marginBottom="@dimen/layout_row_margin_bottom"
+        android:background="@color/layout_row_color"
+        android:padding="4dp"
         android:text="@string/placeholder"
+        android:textColor="#000000"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/completion"
         android:layout_width="0dp"
-        android:layout_height="50sp"
+        android:layout_height="32sp"
+        android:layout_marginBottom="@dimen/layout_row_margin_bottom"
         android:layout_weight="1"
+        android:background="@color/layout_row_color"
+        android:padding="4dp"
         android:text="@string/placeholder"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
         android:textSize="18sp" />
+
 </LinearLayout>
