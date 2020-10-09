@@ -5,8 +5,6 @@ import androidx.lifecycle.*
 import com.example.myapplication.database.Game
 import com.example.myapplication.database.GameRepository
 import com.example.myapplication.database.GameRoomDatabase
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 
 class GalleryViewModel(application: Application) : AndroidViewModel(application) {
 
