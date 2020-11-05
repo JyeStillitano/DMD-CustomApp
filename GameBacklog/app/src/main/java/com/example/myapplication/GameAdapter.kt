@@ -37,7 +37,9 @@ class GameAdapter internal constructor(layoutInflater: LayoutInflater) : Recycle
     override fun onBindViewHolder(holder: GameAdapter.ViewHolder, position: Int) {
         val game = games[position]
         holder.nameView.text = game.name
-        holder.completionView.text = inflater.context.getString(R.string.percent, game.completion.toString())
+        val tempPercent = game.completion.toString() + " %"
+        //holder.completionView.text = inflater.context.getString(R.string.percent, game.completion.toString())
+        holder.completionView.text = tempPercent
     }
 
     override fun getItemCount() = games.size
