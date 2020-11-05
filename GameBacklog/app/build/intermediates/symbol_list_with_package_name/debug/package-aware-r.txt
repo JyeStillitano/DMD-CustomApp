@@ -1735,6 +1735,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id completion
+id completionBar
 id completionText
 id confirm_button
 id container

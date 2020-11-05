@@ -4,6 +4,7 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.database.Game
@@ -17,6 +18,7 @@ class GameAdapter internal constructor(layoutInflater: LayoutInflater) : Recycle
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val nameView: TextView = view.findViewById(R.id.name)
         val completionView: TextView = view.findViewById(R.id.completion)
+        val completionProgress: ProgressBar = view.findViewById(R.id.completionBar)
 
         init {
             // Start activity InformationActivity onClick - for each Game
@@ -37,8 +39,8 @@ class GameAdapter internal constructor(layoutInflater: LayoutInflater) : Recycle
     override fun onBindViewHolder(holder: GameAdapter.ViewHolder, position: Int) {
         val game = games[position]
         holder.nameView.text = game.name
-        val tempPercent = game.completion.toString() + " %"
-        //holder.completionView.text = inflater.context.getString(R.string.percent, game.completion.toString())
+        holder.completionProgress.progress = game.completion.toInt()
+        val tempPercent = game.completion.toString() + "%"
         holder.completionView.text = tempPercent
     }
 
