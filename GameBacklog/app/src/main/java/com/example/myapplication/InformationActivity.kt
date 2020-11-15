@@ -8,7 +8,7 @@ import android.widget.Spinner
 import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
-import com.example.myapplication.controller.home.HomeViewModel
+import com.example.myapplication.controller.playing.PlayingViewModel
 import com.example.myapplication.database.Game
 import com.example.myapplication.database.Platform
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -45,7 +45,7 @@ class InformationActivity : AppCompatActivity() {
                 Platform.valueOf(platform.selectedItem.toString()),
                 description.text.toString(),
                 completion.text.toString().toFloat())
-            ViewModelProvider(this).get(HomeViewModel::class.java).delete(deleteGame)
+            ViewModelProvider(this).get(PlayingViewModel::class.java).delete(deleteGame)
             Toast.makeText(applicationContext, deleteGame.name + " deleted!", Toast.LENGTH_LONG).show()
             finish()
         }
@@ -55,7 +55,7 @@ class InformationActivity : AppCompatActivity() {
         findViewById<FloatingActionButton>(R.id.saveFab).setOnClickListener {
             if (checkInput()) {
                 val updatedGame = Game(name.text.toString(), Platform.valueOf(platform.selectedItem.toString()), description.text.toString(), completion.text.toString().toFloat())
-                ViewModelProvider(this).get(HomeViewModel::class.java).update(updatedGame)
+                ViewModelProvider(this).get(PlayingViewModel::class.java).update(updatedGame)
                 Toast.makeText(applicationContext, "Game Updated!", Toast.LENGTH_LONG).show()
                 finish()
             }

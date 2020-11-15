@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/layout_row_margin_bottom"
+    android:background="@color/layout_row_color"
+    android:paddingLeft="@dimen/margin"
+    android:paddingRight="@dimen/margin">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="325sp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/placeholder"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/completion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/placeholder"
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <ProgressBar
+            android:id="@+id/completionBar"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:indeterminate="false"
+            android:progressBackgroundTint="#FFFFFF"
+            android:progressTint="@color/colorAccent" />
+    </LinearLayout>
+
+</LinearLayout>

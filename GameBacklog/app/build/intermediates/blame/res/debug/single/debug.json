@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\delete.xml"
+    },
+    {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
@@ -16,24 +20,20 @@
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_delete_24.xml.flat",
-        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\ic_baseline_delete_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_save_24.xml.flat",
-        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\ic_baseline_save_24.xml"
-    },
-    {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_row.xml.flat",
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\layout_row.xml"
     },
     {
-        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_add_24.xml.flat",
-        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_playing.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\playing.xml"
     },
     {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_backlog.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\fragment_backlog.xml"
     },
     {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
@@ -44,35 +44,51 @@
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout-land\\activity_information.xml"
     },
     {
-        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_game_controller.png.flat",
-        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\game_controller.png"
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_playing.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\fragment_playing.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\add.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sort.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_completed.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\completed.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_layout_row.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout-land\\layout_row.xml"
     },
     {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_new_game.xml.flat",
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout-land\\activity_new_game.xml"
     },
     {
-        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_playlist_add_check_24.xml.flat",
-        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\ic_baseline_playlist_add_check_24.xml"
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backlog.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\backlog.xml"
     },
     {
-        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_gallery.xml.flat",
-        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_controller.png.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\controller.png"
     },
     {
-        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_list_24.xml.flat",
-        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\ic_baseline_list_24.xml"
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_completed.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\fragment_completed.xml"
     },
     {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_game.xml.flat",
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\activity_new_game.xml"
     },
     {
-        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
         "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\build\\intermediates\\res\\merged\\debug\\drawable_save.xml.flat",
+        "source": "C:\\Users\\Jye\\Desktop\\Code\\DMD-CustomApp\\GameBacklog\\app\\src\\main\\res\\drawable\\save.xml"
     }
 ]

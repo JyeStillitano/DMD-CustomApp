@@ -17,7 +17,7 @@ abstract class GameRoomDatabase : RoomDatabase() {
         : RoomDatabase.Callback() {
         override fun onOpen(db: SupportSQLiteDatabase) {
             super.onOpen(db)
-            INSTANCE?.let { database ->
+            INSTANCE?.let { //database ->
                 scope.launch {
                     // Populate database
                     // populateDatabase(database.gameDao())

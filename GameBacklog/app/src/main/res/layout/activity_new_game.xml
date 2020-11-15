@@ -67,7 +67,7 @@
             android:layout_gravity="bottom|end"
             android:layout_margin="@dimen/margin"
             android:clickable="true"
-            app:srcCompat="@drawable/ic_baseline_save_24" />
+            app:srcCompat="@drawable/save" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 </LinearLayout>

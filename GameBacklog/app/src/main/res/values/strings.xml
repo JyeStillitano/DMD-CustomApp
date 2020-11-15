@@ -2,8 +2,9 @@
     <string name="app_name">Backlog</string>
     <string name="nav_header_desc">Navigation header</string>
 
-    <string name="menu_home">Backlog</string>
-    <string name="menu_gallery">Completed Games</string>
+    <string name="menu_playing">Playing</string>
+    <string name="menu_backlog">Backlog</string>
+    <string name="menu_completed">Completed Games</string>
 
     <string name="placeholder">Placeholder</string>
     <string name="percent">%s %%</string>
@@ -12,6 +13,12 @@
     <string name="description">Description: </string>
     <string name="platform">Platform: </string>
     <string name="completion">Percentage Completion: </string>
+
+    <string-array name="sort">
+        <item>By Name</item>
+        <item>By Completion - Descending</item>
+        <item>By Completion - Ascending</item>
+    </string-array>
 
     <string-array name="platform">
         <item>PC</item>

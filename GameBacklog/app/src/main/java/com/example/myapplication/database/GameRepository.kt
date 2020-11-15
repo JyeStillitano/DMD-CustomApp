@@ -4,7 +4,8 @@ import androidx.lifecycle.LiveData
 
 // Handles access to the database and LiveData lists. Wraps around the gameDao functions.
 class GameRepository(private val gameDao: GameDao) {
-    val allGames: LiveData<List<Game>> = gameDao.getGames()                 // Game Backlog List
+    val backlogGames : LiveData<List<Game>> = gameDao.getBacklogGames()     // Backlog List
+    val playingGames: LiveData<List<Game>> = gameDao.getPlayingGames()      // Playing List
     val completedGames : LiveData<List<Game>> = gameDao.getCompletedGames() // Completed List
 
     suspend fun insert(game: Game) {

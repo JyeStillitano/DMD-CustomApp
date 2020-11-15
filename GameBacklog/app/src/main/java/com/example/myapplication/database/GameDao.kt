@@ -12,8 +12,12 @@ interface GameDao {
     fun insertGame(game: Game)
 
     // READ. Get a list of all uncompleted Games from DB
-    @Query("SELECT * from game_table WHERE completion < '100.0' ORDER BY name ASC")
-    fun getGames(): LiveData<List<Game>>
+    @Query("SELECT * from game_table WHERE completion = '0.0' ORDER BY name ASC")
+    fun getBacklogGames(): LiveData<List<Game>>
+
+    // READ. Get a list of all uncompleted Games from DB
+    @Query("SELECT * from game_table WHERE completion > '0.0' AND completion < '100.0' ORDER BY name ASC")
+    fun getPlayingGames(): LiveData<List<Game>>
 
     // READ. Get a list of all completed Games from DB
     @Query("SELECT * from game_table WHERE completion='100.0' ORDER BY name ASC")

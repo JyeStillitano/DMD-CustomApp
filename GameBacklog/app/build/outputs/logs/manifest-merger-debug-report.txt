@@ -12,6 +12,7 @@ MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Jye\.gradle\caches\t
 MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\cb2c142d79604646c89f5c60f9c25694\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\43a917f9534cb05f0a20bd294163eceb\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\334d8ef66280a3992eca002228faf8de\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\ebc0a9b3b74d66c03aff26bae46306cc\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\ad347be6a824b5411a32822f02f2c2b8\navigation-common-ktx-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\8980d788014fcfbd6a5e16fdd30ae692\jetified-core-ktx-1.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\5e32c8fd620a1e6362de798fd9dd015f\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
@@ -104,9 +105,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Jy
 	android:label
 		ADDED from C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:9:9-49
 	android:icon
-		ADDED from C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:7:9-49
+		ADDED from C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:7:9-44
 	android:allowBackup
 		ADDED from C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
@@ -157,6 +158,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Jye\.gra
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\43a917f9534cb05f0a20bd294163eceb\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\334d8ef66280a3992eca002228faf8de\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\334d8ef66280a3992eca002228faf8de\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\ebc0a9b3b74d66c03aff26bae46306cc\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\ebc0a9b3b74d66c03aff26bae46306cc\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\ad347be6a824b5411a32822f02f2c2b8\navigation-common-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.0] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\ad347be6a824b5411a32822f02f2c2b8\navigation-common-ktx-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.3.1] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\8980d788014fcfbd6a5e16fdd30ae692\jetified-core-ktx-1.3.1\AndroidManifest.xml:5:5-7:41

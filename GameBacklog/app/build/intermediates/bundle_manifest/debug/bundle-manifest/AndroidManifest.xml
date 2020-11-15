@@ -13,9 +13,9 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:extractNativeLibs="false"
-        android:icon="@drawable/game_controller"
+        android:icon="@drawable/controller"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/game_controller"
+        android:roundIcon="@drawable/controller"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.myapplication.InformationActivity" />

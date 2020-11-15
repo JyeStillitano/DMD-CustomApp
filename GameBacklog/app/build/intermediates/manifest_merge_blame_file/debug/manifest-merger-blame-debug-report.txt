@@ -18,12 +18,12 @@
 13-->[androidx.core:core:1.3.1] C:\Users\Jye\.gradle\caches\transforms-2\files-2.1\3fad7ea4f0b845c6f6667debb95e1494\core-1.3.1\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:extractNativeLibs="false"
-16        android:icon="@drawable/game_controller"
-16-->C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:7:9-49
+16        android:icon="@drawable/controller"
+16-->C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:7:9-44
 17        android:label="@string/app_name"
 17-->C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:8:9-41
-18        android:roundIcon="@drawable/game_controller"
-18-->C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:9:9-54
+18        android:roundIcon="@drawable/controller"
+18-->C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:9:9-49
 19        android:supportsRtl="true"
 19-->C:\Users\Jye\Desktop\Code\DMD-CustomApp\GameBacklog\app\src\main\AndroidManifest.xml:10:9-35
 20        android:theme="@style/AppTheme" >

@@ -6,7 +6,7 @@ import android.widget.EditText
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
-import com.example.myapplication.controller.home.HomeViewModel
+import com.example.myapplication.controller.playing.PlayingViewModel
 import com.example.myapplication.database.Game
 import com.example.myapplication.database.Platform
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -33,7 +33,7 @@ class NewGameActivity : AppCompatActivity() {
                     completion.text.toString().toFloat()
                 )
                 // Insert newGame via HomeViewModel to access DAO
-                ViewModelProvider(this).get(HomeViewModel::class.java).insert(newGame)
+                ViewModelProvider(this).get(PlayingViewModel::class.java).insert(newGame)
                 Toast.makeText(applicationContext, newGame.name + " added!", Toast.LENGTH_LONG).show()
                 finish()
             }
